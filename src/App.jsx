@@ -1,10 +1,16 @@
 import React from 'react';
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Highlights from './components/Highlights';
+
 
 const App = () => {
   return (
-    <div className="font-extrabold text-center bg-gray-200 ">
-      hello world
-    </div>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   )
 }
 
